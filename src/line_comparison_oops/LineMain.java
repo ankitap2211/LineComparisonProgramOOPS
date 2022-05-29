@@ -28,6 +28,8 @@ public class LineMain {
         double lineOfSecond = line_length(a3, a4, b3, b4);
         String s1 = String.valueOf(lineOfFirst);
         String s2 = String.valueOf(lineOfSecond);
+        checkEquality checkequality = new checkEquality();
+        checkequality.result(s1, s2);
 
     }
 }

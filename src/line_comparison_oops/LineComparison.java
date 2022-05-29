@@ -8,3 +8,12 @@ public class LineComparison {
         return lenOfLine;
     }
 }
+
+class checkEquality {
+    void result(String line1, String line2) {
+        if (line1.equals(line2))
+            System.out.println("Line is equal");
+        else
+            System.out.println("Lines are not equal");
+    }
+}
