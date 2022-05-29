@@ -30,6 +30,8 @@ public class LineMain {
         String s2 = String.valueOf(lineOfSecond);
         checkEquality checkequality = new checkEquality();
         checkequality.result(s1, s2);
+        checkComparison checkcomparison = new checkComparison();
+        checkcomparison.comparison(s1, s2);
 
     }
 }
